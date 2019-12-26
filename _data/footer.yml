@@ -1,16 +1,24 @@
 - name:
-  link: https://facebook.com/cloudcannon
+  link: https://facebook.com/cooolbrg
   social_icon: Facebook
   new_window: true
 - name:
-  link: https://twitter.com/cloudcannon
+  link: https://twitter.com/coolbrg
   social_icon: Twitter
   new_window: true
 - name:
-  link: https://youtube.com/c/cloudcannon
+  link: https://www.youtube.com/channel/UC1mixqcP6GIY9bnG4gWDznA
   social_icon: YouTube
   new_window: true
 - name: 
-  link: https://instagram.com/
+  link: https://github.com/coolbrg
+  social_icon: GitHub
+  new_window: true
+- name: 
+  link: https://www.linkedin.com/in/coolbrg/
+  social_icon: LinkedIn
+  new_window: true
+- name: 
+  link: https://instagram.com/cooolbrg
   social_icon: Instagram
   new_window: true

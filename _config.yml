@@ -1,24 +1,24 @@
 # ----
 # Site
 
-title: Base
+title: BRG Trainings
 url: "https://brgtrainings.com"
 baseurl:
-google_analytics_key:
-disqus_shortname:
+google_analytics_key: UA-150993808-2
+disqus_shortname: brgtrainings
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Knowledge base template for Jekyll.
+description: BRG Trainings content materials
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Budh Ram Gurung
+  email: budhramgurung@gmail.com
+  twitter: coolbrg
 social:
-  name: Base Template
+  name: BRG Trainings
   links:
-    - https://github.com/CloudCannon/base-jekyll-template
+    - https://github.com/coolbrg
 
 # -----
 # Build

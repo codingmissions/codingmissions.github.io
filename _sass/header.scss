@@ -49,7 +49,7 @@ header {
 	nav {
 		@media #{$mid-point} {
 			flex: 1;
-			margin: 0 0 0 10px;
+			margin: 0 0 0 5em;
 			display: block;
 
 			form {
@@ -116,7 +116,7 @@ header {
 	font-size: 1.6em;
 	line-height: 1em;
 	text-decoration: none;
-	color: #fff;
+	color: #fff !important;
 	top: 4px;
 
 	@media #{$mid-point} {
