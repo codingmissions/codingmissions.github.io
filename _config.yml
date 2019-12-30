@@ -1,22 +1,22 @@
 # ----
 # Site
 
-title: BRG Trainings
-url: "https://codingmissions.com"
+title: Coding Missions
+url: "https://codingmissions.org"
 baseurl:
 google_analytics_key: UA-150993808-2
-disqus_shortname: brgtrainings
+disqus_shortname: codingmissions
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: BRG Trainings content materials
+description: Coding Missions content materials
 author:
   name: Budh Ram Gurung
   email: budhramgurung@gmail.com
   twitter: coolbrg
 social:
-  name: BRG Trainings
+  name: Coding Missions
   links:
     - https://github.com/coolbrg
 
