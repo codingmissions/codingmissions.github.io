@@ -3,11 +3,7 @@ date: 2019-12-30
 title: Number Guess Game
 description: |
   Build a number guessing game where MissionBot will choose any random number between
-  1 to 100.
-description_steps:
-  - If the user failed to enter the random number, the user will get a hint from MissionBot in the form of "Your guess was low, please enter higher number." if number is lower than the random number and vice-versa.
-  - Print message "Hurray! You Won."
-  - Also, calculate the score.
+  1 to 100. Then, ask the user to guess the correct number. Maximum allowed guessing is 10.
 index: 1
 categories:
   - beginners
@@ -110,3 +106,4 @@ Brg, your guess was low, please enter a higher number. You have 4 guesses left
 Guess a number from 1 to 100: 73
 Good job, Brg! You guessed the number in 7 tries :) .
 ```
+
