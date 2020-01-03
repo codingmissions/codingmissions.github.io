@@ -1,4 +1,11 @@
 jQuery(function() {
+
+	// Print message to view in desktop
+
+	if (window.screen.availWidth < 780) {
+		$('.best-view-message').append("Viewed best in Desktop (Resolution > 786).");
+	} 
+
 	var $sidebar = $('.sidebar'),
 		$content = $('.content'),
 		$tutorial = $('.tutorial-content'),

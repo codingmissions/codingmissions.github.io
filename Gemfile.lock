@@ -1,6 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (6.0.2.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
@@ -11,6 +17,10 @@ GEM
     eventmachine (1.2.5)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
+    gemoji (3.0.1)
+    html-pipeline (2.12.3)
+      activesupport (>= 2)
+      nokogiri (>= 1.4)
     http_parser.rb (0.6.0)
     i18n (0.9.3)
       concurrent-ruby (~> 1.0)
@@ -42,6 +52,10 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
+    jemoji (0.11.1)
+      gemoji (~> 3.0)
+      html-pipeline (~> 2.2)
+      jekyll (>= 3.0, < 5.0)
     kramdown (1.16.2)
     liquid (4.0.0)
     listen (3.1.5)
@@ -50,6 +64,7 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
+    minitest (5.13.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     pathutil (0.16.1)
@@ -66,6 +81,10 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    thread_safe (0.3.6)
+    tzinfo (1.2.6)
+      thread_safe (~> 0.1)
+    zeitwerk (2.2.2)
 
 PLATFORMS
   ruby
@@ -77,6 +96,7 @@ DEPENDENCIES
   jekyll-feed (= 0.9.3)
   jekyll-seo-tag (= 2.4.0)
   jekyll-sitemap (= 1.2.0)
+  jemoji
 
 BUNDLED WITH
-   1.16.0
+   1.17.2

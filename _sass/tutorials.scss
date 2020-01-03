@@ -110,6 +110,7 @@
 
 			&.active {
 				color: $link-color;
+				font-weight: bold;
 				transform: translateX(10px);
 			}
 		}

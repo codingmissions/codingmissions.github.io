@@ -12,7 +12,7 @@ layout: default
 		</ul>
 	</section>
 	<section class="tutorial-content">
-		<h1>{{ page.title }}</h1>
+		<h1>Mission: {{ page.title }}</h1>
 
 		{% if page.type == "Video" %}
 			{% include youtube.html video_id=page.video_id %}
@@ -32,8 +32,8 @@ layout: default
 			{{ content }}
 		</div>
 		<div class="tutorial-share">
-			<a class="modalOpen no-smooth" href="#subscribe">{% include social-icon.html icon="Email" %} Subscribe</a>
-			<a class="modalOpen no-smooth" href="#share">{% include social-icon.html icon="Share" %} Share</a>
+			<!-- <a class="modalOpen no-smooth" href="#subscribe">{% include social-icon.html icon="Email" %} Subscribe</a> -->
+			<a class="modalOpen no-smooth" href="#share">{% include social-icon.html icon="Facebook" %} Share</a>
 		</div>
 	</section>
 </section>

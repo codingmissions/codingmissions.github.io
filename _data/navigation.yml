@@ -1,7 +1,5 @@
 - name: Home
   link: /
-- name: Tutorials
-  link: /tutorials
 - name: Videos
   link: /videos/
 - name: FAQ
