@@ -28,7 +28,7 @@ timezone: Etc/UTC
 permalink: /:categories/:title/
 
 plugins:
-  - jekyll-extract-element
+  # - jekyll-extract-element # Uncomment it for Linux or macOS
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
